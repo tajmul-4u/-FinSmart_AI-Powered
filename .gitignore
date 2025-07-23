@@ -1,0 +1,10 @@
+# C++ build files
+*.o
+*.obj
+*.exe
+*.out
+*.log
+build/
+cmake-build-debug/
+.vscode/
+.idea/
