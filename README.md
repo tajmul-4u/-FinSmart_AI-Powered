@@ -34,9 +34,9 @@
   - Multithreading (`std::thread`)  
   - Design Patterns (**Singleton**, **Factory**, **Observer**)  
 
-- **Optional Libraries:**  
-  - **OpenGL / SDL** for charts  
-  - **ASCII Graphs** for lightweight mode  
+- **Optional Libraries:**
+  - **OpenGL / SDL** for charts
+  - **ASCII Graphs** for lightweight mode
 
 ---
 

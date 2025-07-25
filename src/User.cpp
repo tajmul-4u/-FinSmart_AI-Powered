@@ -1,12 +1,38 @@
 #include "User.h"
-#include <iostream>
+#include<iostream>
+using namespace std;
 
-User::User(int id, const std::string &name, const std::string &email) : userID(id), name(name), email(email) {}
 
-void User::setPassword(const std::string &pwd) {
+//Constructor: User Object initialize
+User::User(int id, const string &name,const string &email) : userID(id),name(name),email(email) {}
+
+//Getter implementations
+int User::getUserID() const {
+    return userID;
+}
+
+string User::getName() const {
+    return name;
+}
+
+string User::getEmail() const {
+    return email;
+}
+
+//Setter implementations
+void User::setName(const string &newName) {
+    name = newName;
+}
+
+void User::setEmail(const string &newEmail) {
+    email = newEmail;
+}
+
+void User::setPassword(const string &pwd) {
     password = pwd;
 }
 
-bool User::login(const std::string &emailInput, const std::string &pwd) {
+//Login Function (Email and Password to be match for true)
+bool User::login(const string &emailInput, const string &pwd) {
     return (emailInput == email && pwd == password);
 }
