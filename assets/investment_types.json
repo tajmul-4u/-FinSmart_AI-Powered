@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Technology Stocks",
+    "type": "stock",
+    "risk_level": "high",
+    "expected_return": 12.5,
+    "volatility": 18.2,
+    "description": "High-growth technology companies",
+    "examples": ["AAPL", "GOOGL", "MSFT", "AMZN"]
+  },
+  {
+    "id": 2,
+    "name": "Government Bonds",
+    "type": "bond",
+    "risk_level": "low",
+    "expected_return": 3.2,
+    "volatility": 2.1,
+    "description": "Stable government-backed securities",
+    "examples": ["US Treasury", "UK Gilts", "German Bunds"]
+  },
+  {
+    "id": 3,
+    "name": "Fixed Deposit",
+    "type": "fd",
+    "risk_level": "very_low",
+    "expected_return": 2.8,
+    "volatility": 0.1,
+    "description": "Bank fixed deposits with guaranteed returns",
+    "examples": ["1-year FD", "3-year FD", "5-year FD"]
+  },
+  {
+    "id": 4,
+    "name": "Cryptocurrency",
+    "type": "crypto",
+    "risk_level": "very_high",
+    "expected_return": 25.0,
+    "volatility": 45.8,
+    "description": "Digital currencies with high volatility",
+    "examples": ["Bitcoin", "Ethereum", "Cardano"]
+  },
+  {
+    "id": 5,
+    "name": "Real Estate Investment",
+    "type": "real_estate",
+    "risk_level": "medium",
+    "expected_return": 8.5,
+    "volatility": 12.3,
+    "description": "Property and real estate investments",
+    "examples": ["REITs", "Commercial Property", "Residential"]
+  },
+  {
+    "id": 6,
+    "name": "Mutual Funds",
+    "type": "mutual_fund",
+    "risk_level": "medium",
+    "expected_return": 9.2,
+    "volatility": 14.5,
+    "description": "Diversified investment funds",
+    "examples": ["Equity Funds", "Debt Funds", "Hybrid Funds"]
+  }
+]

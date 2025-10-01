@@ -1,0 +1,10 @@
+# Sample account data for testing FinSmart++
+# Format: AccountID,UserID,AccountType,Balance,CreationDate,LastActivity
+
+112233,1,savings,2500.75,2024-01-15,2024-10-01
+112234,1,investment,5000.00,2024-01-16,2024-09-28
+223344,2,savings,1800.50,2024-02-20,2024-09-30
+223345,2,investment,3200.25,2024-02-21,2024-09-29
+334455,3,savings,4200.00,2024-03-10,2024-09-25
+445566,4,savings,1500.30,2024-04-05,2024-09-20
+556677,5,savings,3800.90,2024-05-12,2024-09-15

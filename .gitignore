@@ -1,10 +1,51 @@
-# C++ build files
-*.o
-*.obj
-*.exe
-*.out
-*.log
+# Build directory
+# Contains compiled object files and executables
 build/
 cmake-build-debug/
+cmake-build-release/
+
+# IDE and editor specific files
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# Compiled Object files
+*.o
+*.obj
+
+# Executables
+FinSmart
+FinSmart.exe
+*.exe
+*.out
+
+# Libraries
+*.lib
+*.a
+*.so
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Test executables
+test_*
+tests/test_*
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.backup
